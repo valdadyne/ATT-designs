@@ -1,17 +1,27 @@
-@import 'https://fonts.googleapis.com/css?family=Poiret+One|Roboto+Condensed';
+@import 'https://fonts.googleapis.com/css?family=Poiret+One|Roboto+Condensed|Rock+Salt';
 
 body{
   padding:0;
   margin: 0;
   font-family: 'Roboto Condensed', sans-serif;
 }
+/* Title/Logo */
+.title{
+  text-align: center;
+}
+.Ucase{
+  font-family: 'Rock Salt', cursive;
+  font-size: 36px;color: #DC143C;}
+.Lcase{
+  font-family: 'Poiret One', cursive;
+  font-size: 28px;color: #fff;}
 
 /*Navigation Bar*/
 .topbar{
   padding:0;
   margin: 0;
   background-color: #111;
-  height: 5em;
+  height: auto;
   font-family: 'Roboto Condensed', sans-serif;
 }
 ul.rightbar{
@@ -42,4 +52,13 @@ ul.rightbar li a{
 }
 .rightbar a:hover:after {
   width: 100%;
+}
+
+/*main image*/
+.main-img{
+  background-image: url(../img/main-img.jpg),url(../img/main-img2.jpg);
+  background-position: right, left;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain;
+  height:30em;
 }
