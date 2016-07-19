@@ -78,8 +78,18 @@ ul.rightbar li a{
 .about h2{
   font-family: 'Roboto Condensed', sans-serif;color: #DC143C;
 }
+.portfolio h2{
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;color: #DC143C;
+}
+
+/* portfolio */
 
 
+
+
+
+/* @media queries */
 @media screen and (max-width: 480px) {
     .main-img{
       background-size: 50% cover,50% cover;
