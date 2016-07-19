@@ -5,10 +5,12 @@ body{
   margin: 0;
 }
 p{
-  font-family: 'Roboto Condensed', sans-serif;color:#111;
+  font-family: 'Roboto Condensed', sans-serif;
+  color:#111;
 }
 /* Title/Logo */
 .title{
+  padding-top: 0.3em;
   text-align: center;
 }
 .Ucase{
@@ -23,7 +25,7 @@ p{
   padding:0;
   margin: 0;
   background-color: #111;
-  height: auto;
+  height: 10%;
   font-family: 'Roboto Condensed', sans-serif;
 }
 ul.rightbar{
@@ -73,6 +75,7 @@ ul.rightbar li a{
   font-family: 'Poiret One', cursive;color: #DC143C;
 }
 .about {
+  font-size: 14px;
   text-align: center;
 }
 .about h2{
@@ -92,6 +95,29 @@ ul.rightbar li a{
 /* @media queries */
 @media screen and (max-width: 480px) {
     .main-img{
+      clear:both;
       background-size: 50% cover,50% cover;
     }
+    .topbar{
+      height:auto;
+    }
+    .rightbar{
+      width: 100%;
+      margin: 0;
+    }
+    ul.rightbar li a{
+      padding: 6px 8px;
+    }
+
+}
+@media screen and (max-width: 770px) {
+  .rightbar{
+    padding-top: 1em;
+    width: 100%;
+    margin: 0;
+  }
+    ul.rightbar li a{
+      padding: 12px 14px;
+    }
+
 }
