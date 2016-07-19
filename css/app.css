@@ -1,18 +1,22 @@
+@import 'https://fonts.googleapis.com/css?family=Poiret+One|Roboto+Condensed';
+
 body{
   padding:0;
   margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
 }
+
+/*Navigation Bar*/
 .topbar{
   padding:0;
   margin: 0;
   background-color: #111;
   height: 5em;
+  font-family: 'Roboto Condensed', sans-serif;
 }
-
 ul.rightbar{
   list-style-type: none;
   display: block;
-  vertical-align: bottom;
 }
 ul.rightbar li{
   float: left;
@@ -25,7 +29,7 @@ ul.rightbar li a{
   color: orange;
 }
 .rightbar li a:hover{
-  color: #fff;
+  color: #fff;                    /*font color change on hover*/
 }
 .rightbar li a:after {
   content: '';
@@ -33,7 +37,7 @@ ul.rightbar li a{
   bottom: 0;
   left: 0;
   width: 0%;
-  border-bottom: 2px solid #DC143C;
+  border-bottom: 2px solid #DC143C; /*transition for border-bottom on hover*/
   transition: 0.4s;
 }
 .rightbar a:hover:after {
