@@ -78,9 +78,6 @@ ul.rightbar li a{
 
 @media screen and (max-width: 480px) {
     .main-img{
-      background-size: 100% 100%;
-    }
-    .tagline {
-
+      background-size: 50% cover,50% cover;
     }
 }
