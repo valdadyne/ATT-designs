@@ -57,8 +57,19 @@ ul.rightbar li a{
 /*main image*/
 .main-img{
   background-image: url(../img/main-img.jpg),url(../img/main-img2.jpg);
-  background-position: right, left;
+  background-position:left;right:
   background-repeat: no-repeat, no-repeat;
   background-size: contain;
-  height:30em;
+  height:30em;opacity: 0.9;
+}
+.tagline{
+  padding-top: 10em;
+  height:22em;
+  text-align: center;
+}
+.tagline h2{
+  font-family: 'Poiret One', cursive;color: #DC143C
+}
+.tagline p{
+  font-family: 'Roboto Condensed', sans-serif;color:#111;
 }
