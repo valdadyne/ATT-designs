@@ -64,6 +64,7 @@ ul.rightbar li a{
   background-position:left,right;
   background-repeat: no-repeat, no-repeat;
   background-size: 50% 100%,50% 100%;
+  background-attachment: fixed,fixed;
   height:30em;opacity: 0.9;
 }
 .tagline{
@@ -81,15 +82,50 @@ ul.rightbar li a{
 .about h2{
   font-family: 'Roboto Condensed', sans-serif;color: #DC143C;
 }
+
+/* portfolio */
+
 .portfolio h2{
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;color: #DC143C;
 }
-
-/* portfolio */
-
-
-
+.portfolio .projects{
+  display: block;
+  height:250px;
+  overflow: hidden;
+}
+.portfolio img{
+  margin: 0;padding: 0;
+  height: 250px;
+  width:400px;
+  cursor: pointer;
+}
+.portfolio img:hover{
+  margin-top: -250px;
+  transition: all .3s ease;
+}
+.portfolio h4{
+  font-family: 'Rock Salt', cursive;
+  font-size: 20px;
+  text-align:center;
+  padding-top: 1em;
+  color:#DC143C;
+}
+.portfolio .highlight{
+  text-align:center;
+  text-decoration: underline;
+  color:orange;
+}
+.portfolio p{
+  padding-left: 1em;
+  color:#fff;
+}
+.portfolio .caption{
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #111;
+  border-radius: 3px 3px;
+  transition: all .3s ease;
+}
 
 
 /* @media queries */
