@@ -10,3 +10,4 @@ Project Overview
 
 ----
 =======
+![Project tumbnail](https://github.com/valdadyne/ATT-designs/blob/master/img/att-thumbnail.jpg)
